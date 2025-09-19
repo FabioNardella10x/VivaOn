@@ -17,7 +17,6 @@ export default function NovoColaboradorLayout({
   return (
     <div className="min-h-screen bg-[#f5f3fa]">
       <NavBar />
-      <RoleSwitcher />
       <SecondaryMenu items={secondaryMenuItems} />
       <main className="max-w-6xl mx-auto w-full px-2 sm:px-8 py-6">
         {children}
